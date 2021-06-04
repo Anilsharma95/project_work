@@ -1,6 +1,9 @@
-
+import cv2
+import numpy as np
 class Display:
-    def display_fun():
+    # def __init__(self,model):
+    #     self.model = model
+    def display_fun(self,model):
         cv2.ocl.setUseOpenCL(False)
 
         # dictionary which assigns each label an emotion (alphabetical order)
